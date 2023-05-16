@@ -24,6 +24,9 @@ Briefly, we will look into the background behind the Lorenz equations. For the g
 
 Below are the graphical representations of the training data. The data were combined into one array in order to allow for faster fitting of the neural networks.
 
+.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/797a26fe-a126-40dc-a135-5e68023a27ee
+
+
 .. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/e5539899-01c5-45de-90db-abc1cf7d96a4
 
 With the goal of creating the following outputs as the specific test data. When rho is set to 17 and 35. 
