@@ -15,6 +15,8 @@ Introduction
 Theoretical Backgroud
 ^^^^^^^^^^^^
 
+.. image:: ![Uploading image.png…]()
+
 
 Algorithm Implementation and Development
 ^^^^^^^^^^^^
@@ -22,12 +24,6 @@ With the ease of pytorch packages, FFNN code is simple to develop. After importi
 
 .. code-block:: text
 
-        class Net(nn.Module):
-                def __init__(self):
-                super(Net, self).__init__()
-                self.fc1 = nn.Linear(1, 20)
-                self.fc2 = nn.Linear(20, 10)
-                self.fc3 = nn.Linear(10, 1)
 
 
 Computational Results
