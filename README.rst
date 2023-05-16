@@ -80,7 +80,8 @@ Computational Results
 ^^^^^^^^^^^^
 Due to difficulty in code it was hard to get full compuational results from each of the models. The FFNN loss graph is shown below. We see that the model gets slightly better as the loss continues to decrease. With different parameters set one could observe better or worse loss functions. When this model was applied to the data it did not do a good job replicating the test data. This has to do with how the lorenz equations change. The model was very ineffective when predicting rho = 35 but had much less error in predicting rho = 17. 
 
-.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/fcfec198-2fc4-4256-9e13-33c1b4e4b1e2
+.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/5c454b67-21b3-405d-a8f4-bc494a136aae
+ 
 
 Summary and Conclusions
 ^^^^^^^^^^^
