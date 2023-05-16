@@ -82,6 +82,6 @@ Due to difficulty in code it was hard to get full compuational results from each
 
 Summary and Conclusions
 ^^^^^^^^^^^
-Upon discussion with a peer that had more coding success, the graph below was attained. As expected a RNN model is more effective in predicting based on the training data. These graphs may not be completely accurate as different levels of hyperparameter tuning were done. One model with different parameters may do better than the others. In this case we obesrve the ESN has a much higher error compared to the rest. 
+Upon discussion with a peer that had more coding success, the graph below was attained. As expected a RNN model is more effective in predicting based on the training data. These graphs may not be completely accurate as different levels of hyperparameter tuning were done. One model with different parameters may do better than the others. In this case we obesrve the ESN has a much higher error compared to the rest. There were different errors when looking at rho = 17 vs rho = 35 as the predictibilty changed based off of the Lorenz equations.  
 
 .. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/0a0f713d-75e8-4338-9b44-98afe25b6a38
