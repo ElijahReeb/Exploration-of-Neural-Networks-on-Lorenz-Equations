@@ -76,11 +76,12 @@ To summarize the above, we can observe that the algorithms that a user is implem
 
 Computational Results
 ^^^^^^^^^^^^
+Due to difficulty in code it was hard to get full compuational results from each of the models. The FFNN loss graph is shown below. We see that the model gets slightly better as the loss continues to decrease. With different parameters set one could observe better or worse loss functions. When this model was applied to the data it did not do a good job replicating the test data. This has to do with how the lorenz equations change. The model was very ineffective when predicting rho = 35 but had much less error in predicting rho = 17. 
 
 .. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/fcfec198-2fc4-4256-9e13-33c1b4e4b1e2
 
-
 Summary and Conclusions
 ^^^^^^^^^^^
+Upon discussion with a peer that had more coding success, the graph below was attained. As expected a RNN model is more effective in predicting based on the training data. These graphs may not be completely accurate as different levels of hyperparameter tuning were done. One model with different parameters may do better than the others. In this case we obesrve the ESN has a much higher error compared to the rest. 
 
 .. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/0a0f713d-75e8-4338-9b44-98afe25b6a38
