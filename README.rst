@@ -24,14 +24,13 @@ Briefly, we will look into the background behind the Lorenz equations. For the g
 
 Below are the graphical representations of the training data. The data were combined into one array in order to allow for faster fitting of the neural networks.
 
-.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/797a26fe-a126-40dc-a135-5e68023a27ee
+.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/b9610fc4-a054-45c7-a231-c193f38959c8
 
-
-.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/e5539899-01c5-45de-90db-abc1cf7d96a4
 
 With the goal of creating the following outputs as the specific test data. When rho is set to 17 and 35. 
 
-.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/167dbc34-e08f-4b9a-83c4-f14e345c1755
+.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/e60f28c7-c2ab-46bd-a558-6c03a91237e8
+
 
 Transitioning to some of the theoretical background behind the Network models. As discussed in assignment 4 a neural network involves layers connected by weights and activation functions. They are trained through backpropagation where the weights are adjusted based on an error metric. The LSTM is a type of RNN which means the network is more cyclic meaning nodes may be able to input to themselves. The ESN is also a type of RNN which has a random hidden layer. These networks are more designed for time series data so we would expect at least one of these algorithms to out perform the FFNN. This will be discussed later.
 
@@ -87,4 +86,5 @@ Summary and Conclusions
 ^^^^^^^^^^^
 Upon discussion with a peer that had more coding success, the graph below was attained. As expected a RNN model is more effective in predicting based on the training data. These graphs may not be completely accurate as different levels of hyperparameter tuning were done. One model with different parameters may do better than the others. In this case we obesrve the ESN has a much higher error compared to the rest. There were different errors when looking at rho = 17 vs rho = 35 as the predictibilty changed based off of the Lorenz equations.  
 
-.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/0a0f713d-75e8-4338-9b44-98afe25b6a38
+.. image:: https://github.com/ElijahReeb/UW-EE399-Assignment-5/assets/130190276/d622e8b6-4e9f-4f07-a36b-6f26cbd8a872
+
