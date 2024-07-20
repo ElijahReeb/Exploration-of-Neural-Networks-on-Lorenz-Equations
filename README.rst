@@ -1,4 +1,4 @@
-UW-EE399-Assignment-5
+Exploration of Neural Networks on Lorenz Equations
 =========
 This holds the code and backing for the fifth assignment of the EE399 class. This assignment involves the generation of seemingly "random" data using the Lorenz equations. This data is then input into 4 different neural network models in order to demonstrate their ability to advance the solution in time as well as future state prediction for data generated under different parameter values in the equations. 
 
